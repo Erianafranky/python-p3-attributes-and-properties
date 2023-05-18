@@ -1,4 +1,10 @@
 #!/usr/bin/env python3
+"""
+Define a name property for your Person class. The name must be of type str and under 25 characters. 
+If the name is invalid, the setter method should print() "Name must be string under 25 characters."
+Define a job property for your Person class.
+If the job is invalid, the setter method should print() "Job must be in list of approved jobs." 
+"""
 
 APPROVED_JOBS = [
     "Admin",
